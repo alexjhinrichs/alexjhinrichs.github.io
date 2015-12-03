@@ -1,0 +1,139 @@
+body {
+	width: 100%;
+}
+
+li {
+	font-weight: bold;
+}
+
+.img1 {
+   background: #000 url("http://wallpaperspal.com/wp-content/uploads/Office-Table-Wallpaper.jpg") center center;
+}
+
+.img2 {
+   background: #000 url("https://upload.wikimedia.org/wikipedia/commons/c/cb/Sydney_Opera_House_Sails_edit02_adj.JPG") center center;
+}
+
+.img3 {
+   background: #000 url("http://www.planetizen.com/files/images/Chicago%2005%20Bean.jpg") center center;
+}
+
+.img4 {
+   background: #000 url("http://i.kinja-img.com/gawker-media/image/upload/aofja4eqxjqhuywfcgbi.jpg") center center;
+}
+
+
+.jumbotron {
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    height: 825px;
+    margin: 0;
+    color: #a5a4a4;
+}
+
+
+.background1 {
+	margin-top: 175px;
+}
+
+.img-rounded {
+  width: 200px;
+  height: 300px;
+  margin-top: 120px;
+}
+
+@media (max-width: 760px) {
+  .img-rounded {
+    display: none;
+  }
+}
+
+h1, .textFormat {
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+}
+
+.textFormat {
+  color: #272baa;
+}
+
+h2, h3 {
+  font-weight: bold;
+  color: black;
+}
+
+
+hr {
+  width: 80%;
+  border: 1px outset black;
+  opacity: .3;
+}
+
+.btn {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  line-height: 30px;
+  border: 2px black solid;
+  box-shadow: 3px 3px 8px;
+}
+
+
+.thumbnails {
+  height: 268.9px;
+  margin-bottom: 25px;
+  border: 1px solid #B7B8BB;
+  overflow: hidden;
+}
+
+.background3 .row h2 {
+  margin-top: 0;
+  color: black;
+}
+
+.image {
+  width: 100%;
+  height: 175px;
+}
+
+.imageDescription {
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  opacity: .7;
+  color: white;
+}
+
+.imageDescription h3 {
+  color: white;
+  padding-top: 10px;
+}
+
+.thumbnails p {
+  font-size: 12px;
+}
+
+@media (max-width: 960px) {
+  .jumbotron {
+    height: auto;
+  }
+}
+
+.btnDisplay .btn {
+  display: block;
+  margin-top: 30px;
+}
+
+.background4 {
+  padding-top: 50px;
+}
+
+
+.footer {
+	border-radius: 0;
+	margin: 0;
+}
+
+

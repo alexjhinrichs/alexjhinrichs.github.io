@@ -6,6 +6,14 @@ li {
 	font-weight: bold;
 }
 
+.navTabs {
+  background-color: black;
+}
+
+.navTabs:hover {
+  background-color: #6a6a6a;
+}
+
 .img1 {
    background: #000 url("http://wallpaperspal.com/wp-content/uploads/Office-Table-Wallpaper.jpg") center center;
 }
@@ -84,7 +92,6 @@ hr {
 .thumbnails {
   height: 268.9px;
   margin-bottom: 25px;
-  border: 1px solid #B7B8BB;
   overflow: hidden;
 }
 
@@ -94,7 +101,7 @@ hr {
 }
 
 .image {
-  width: 100%;
+  object-fit: cover;
   height: 175px;
 }
 

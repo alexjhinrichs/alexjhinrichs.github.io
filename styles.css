@@ -83,18 +83,18 @@ hr {
 }
 
 .thumbnail {
-  object-fit: cover;
   width: 360px;
   overflow: hidden;
   padding: 0;
-  background-color: transparent;
-  border: none;
+  background-color: #6C6C6C;
+  border: 1px solid black;
   border-radius: 5px;
 }
 
 .thumbnail img {
   height: 250px;
   width: 360px;
+  object-fit: contain;
 }
 
 .background3 .row h2 {
